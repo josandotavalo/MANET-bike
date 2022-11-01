@@ -10,4 +10,3 @@ sleep 5s
 
 #start_olsrd
 sudo olsrd -i wlan0
-
