@@ -48,6 +48,11 @@ sudo apt-get update -y && sudo apt-get upgrade -y
 sudo apt-get install tcpdump -y
 ```
 
+3. GIT
+```
+sudo apt-get install git -y
+```
+
 ## Configuración del nodo OLSR
 
 1. Instalación del demonio
