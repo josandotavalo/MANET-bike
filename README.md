@@ -35,7 +35,7 @@ sudo raspi-config
   - Keyboard: Generic 105-key PC (intl.)/Other/Spanish (Latin American)/The default for the keyboard layout/No compose key
 
 - Advanced Options
-  - Expan Filesystem
+  - Expand Filesystem
 
 ## Instalación de paquetes necesarios
 1. Actualización
