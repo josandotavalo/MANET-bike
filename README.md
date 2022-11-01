@@ -2,7 +2,6 @@
 Script del tema de tesis
 
 ## Instalación y configuración del OS
-
 1. Descargar la imagen de [Raspberry Pi OS Lite (Legacy)](https://www.raspberrypi.com/software/operating-systems/) desde la página oficial
 
 2. Instalar este rapbian en la tarjeta Micro SD mediante el [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
@@ -59,7 +58,6 @@ sudo apt-get install dos2unix -y
 ```
 
 ## Configuración del nodo OLSR
-
 1. Instalación del demonio
 ```
 sudo apt-get install olsrd -y
@@ -71,4 +69,23 @@ git clone https://github.com/josandotavalo/MANET-bike.git
 sudo cp ./MANET-bike/Script\ olsr/olsrd.conf /etc/olsrd/olsrd.conf
 sudo dos2unix ./MANET-bike/Script\ olsr/olsr_nodo1.sh
 sudo chmod +x ./MANET-bike/Script\ olsr/olsr_nodo1.sh
+```
+
+## Configuración del nodo BATMAN
+1. Instalación del demonio
+```
+sudo apt install libnl-3-dev libnl-genl-3-dev
+git clone https://git.open-mesh.org/batctl.git
+cd batctl
+sudo make install
+```
+
+2. Ensure the batman-adv kernel module is loaded at boot time by issuing the following command :
+```
+echo 'batman-adv' | sudo tee --append /etc/modules
+```
+
+3. Stop the DHCP process from trying to manage the wireless lan interface by issuing the following command :
+```
+echo 'denyinterfaces wlan0' | sudo tee --append /etc/dhcpcd.conf
 ```
