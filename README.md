@@ -53,6 +53,11 @@ sudo apt-get install tcpdump -y
 sudo apt-get install git -y
 ```
 
+4. DOS2UNIX
+```
+sudo apt-get install dos2unix -y
+```
+
 ## Configuración del nodo OLSR
 
 1. Instalación del demonio
@@ -64,5 +69,6 @@ sudo apt-get install olsrd -y
 ```
 git clone https://github.com/josandotavalo/MANET-bike.git
 sudo cp ./MANET-bike/Script\ olsr/olsrd.conf /etc/olsrd/olsrd.conf
+sudo dos2unix ./MANET-bike/Script\ olsr/olsr_nodo1.sh
 sudo chmod +x ./MANET-bike/Script\ olsr/olsr_nodo1.sh
 ```
