@@ -23,10 +23,9 @@ sudo dpkg-reconfigure console-setup
 sudo raspi-config
 ```
 
-- System Options: Wireless LAN
-  - Country: EC
-  - SSID: Nombre de la red
-  - Passphrase: Clave de la red
+- System Options
+  - Wireless LAN: Country EC/SSID Nombre de la red/Passphrase Clave de la red
+  - Boot / Auto Login: Console Autologin
   
 - Interface options: SSH
 
@@ -37,3 +36,16 @@ sudo raspi-config
 
 - Advanced Options
   - Expan Filesystem
+
+## Instalación de paquetes necesarios
+1. Actualización
+```
+sudo apt-get update -y && sudo apt-get upgrade -y
+```
+
+2. TCPDUMP
+```
+sudo apt-get install tcpdump -y
+```
+
+## Configuración del nodo OLSR
