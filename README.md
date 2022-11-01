@@ -89,3 +89,10 @@ echo 'batman-adv' | sudo tee --append /etc/modules
 ```
 echo 'denyinterfaces wlan0' | sudo tee --append /etc/dhcpcd.conf
 ```
+
+4. Clonación del repositorio propio
+```
+git clone https://github.com/josandotavalo/MANET-bike.git
+sudo dos2unix ./MANET-bike/Script\ batman/batman_nodo1.sh
+sudo chmod +x ./MANET-bike/Script\ batman/batman_nodo1.sh
+```
