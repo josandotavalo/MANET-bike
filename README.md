@@ -61,7 +61,8 @@ sudo apt-get install olsrd -y
 2. Uso del repositorio
 ```
 git clone https://github.com/josandotavalo/MANET-bike.git
-sudo cp ./MANET-bike/Script\ olsr/olsrd.conf /etc/olsrd/olsrd.conf
+sudo cp /etc/olsrd/olsrd.conf /etc/olsrd/olsrd.conf.copia
+sudo cp MANET-bike/Script\ olsr/olsrd.conf /etc/olsrd/olsrd.conf
 sudo chmod +x ./MANET-bike/Script\ olsr/olsr_nodo1.sh
 ```
 
@@ -92,5 +93,6 @@ sudo chmod +x ./MANET-bike/Script\ batman/batman_nodo1.sh
 ## Configuración del nodo Servidor
 1. Copiar el archivo dhcpcd.conf en la dirección /etc
 ```
-sudo cp ./MANET-bike/dhcpcd.conf /etc
+sudo cp /etc/dhcpcd.conf /etc/dhcpcd.conf.copia
+sudo cp MANET-bike/dhcpcd.conf /etc/dhcpcd.conf 
 ```
