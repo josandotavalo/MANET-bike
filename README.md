@@ -96,3 +96,10 @@ git clone https://github.com/josandotavalo/MANET-bike.git
 sudo dos2unix ./MANET-bike/Script\ batman/batman_nodo1.sh
 sudo chmod +x ./MANET-bike/Script\ batman/batman_nodo1.sh
 ```
+## Configuración del nodo Servidor
+1. Copiar el archivo dhcpcd.conf en la dirección /etc
+```
+git clone https://github.com/josandotavalo/MANET-bike.git
+sudo dos2unix ./MANET-bike/Script\ batman/batman_nodo1.sh
+sudo
+```
