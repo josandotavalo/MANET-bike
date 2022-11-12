@@ -54,7 +54,7 @@ sudo apt-get install git -y
 
 4. DOS2UNIX
 ```
-/
+sudo apt-get install dos2unix -y
 ```
 
 ## Configuración del nodo OLSR
