@@ -23,15 +23,15 @@ sudo raspi-config
 ```
 
 - System Options
-  - Wireless LAN: Country EC/SSID Nombre de la red/Passphrase Clave de la red
+  - Wireless LAN: Country EC / SSID Nombre de la red / Passphrase Clave de la red
   - Boot / Auto Login: Console Autologin
   
 - Interface options: SSH
 
 - Localisation Options
   - Locale: es_EC.UTF-8 UTF-8
-  - Timezone: America/Guayaquil
-  - Keyboard: Generic 105-key PC (intl.)/Other/Spanish (Latin American)/The default for the keyboard layout/No compose key
+  - Timezone: America / Guayaquil
+  - Keyboard: Generic 105-key PC (intl.) / Other / Spanish (Latin American) / The default for the keyboard layout / No compose key
 
 - Advanced Options
   - Expand Filesystem
@@ -54,7 +54,7 @@ sudo apt-get install git -y
 
 4. DOS2UNIX
 ```
-sudo apt-get install dos2unix -y
+/
 ```
 
 ## Configuración del nodo OLSR
