@@ -62,8 +62,8 @@ sudo apt-get install olsrd -y
 ```
 git clone https://github.com/josandotavalo/MANET-bike.git
 sudo cp /etc/olsrd/olsrd.conf /etc/olsrd/olsrd.conf.copia
-sudo cp MANET-bike/Script\ olsr/olsrd.conf /etc/olsrd/olsrd.conf
-sudo chmod +x ./MANET-bike/Script\ olsr/olsr_nodo1.sh
+sudo cp MANET-bike/olsr_scripts/olsrd.conf /etc/olsrd/olsrd.conf
+sudo chmod +x MANET-bike/olsr_scripts/olsr_server.sh 
 ```
 
 ## Configuración del nodo BATMAN
