@@ -99,3 +99,8 @@ sudo chmod +x MANET-bike/batman_scripts/batman_server.sh
 sudo cp /etc/dhcpcd.conf /etc/dhcpcd.conf.copia
 sudo cp MANET-bike/dhcpcd.conf /etc/dhcpcd.conf 
 ```
+## Restablecer WiFi
+1. Copiar el archivo dhcpcd.conf en la dirección /etc
+```
+sudo systemctl start dhcpcd 
+```
