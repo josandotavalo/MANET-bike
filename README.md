@@ -51,6 +51,11 @@ sudo apt-get install tcpdump -y
 ```
 sudo apt-get install git -y
 ```
+4. Clonación del repositorio propio
+```
+git clone https://github.com/josandotavalo/MANET-bike.git
+```
+
 
 ## Configuración del nodo OLSR
 1. Instalación del protocolo
@@ -60,7 +65,6 @@ sudo apt-get install olsrd -y
 
 2. Uso del repositorio
 ```
-git clone https://github.com/josandotavalo/MANET-bike.git
 sudo cp /etc/olsrd/olsrd.conf /etc/olsrd/olsrd.conf.copia
 sudo cp MANET-bike/olsr_scripts/olsrd.conf /etc/olsrd/olsrd.conf
 sudo chmod +x MANET-bike/olsr_scripts/olsr_server.sh 
@@ -85,9 +89,8 @@ echo 'batman-adv' | sudo tee --append /etc/modules
 echo 'denyinterfaces wlan0' | sudo tee --append /etc/dhcpcd.conf
 ```
 
-4. Clonación del repositorio propio
+4. Permisos de ejecución
 ```
-git clone https://github.com/josandotavalo/MANET-bike.git
 sudo chmod +x ./MANET-bike/Script\ batman/batman_nodo1.sh
 ```
 ## Configuración del nodo Servidor
