@@ -91,7 +91,7 @@ echo 'denyinterfaces wlan0' | sudo tee --append /etc/dhcpcd.conf
 
 4. Permisos de ejecución
 ```
-sudo chmod +x ./MANET-bike/Script\ batman/batman_nodo1.sh
+sudo chmod +x MANET-bike/batman_scripts/batman_server.sh 
 ```
 ## Configuración del nodo Servidor
 1. Copiar el archivo dhcpcd.conf en la dirección /etc
