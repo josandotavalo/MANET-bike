@@ -100,7 +100,7 @@ sudo cp /etc/dhcpcd.conf /etc/dhcpcd.conf.copia
 sudo cp MANET-bike/dhcpcd.conf /etc/dhcpcd.conf 
 ```
 ## Restablecer WiFi
-1. Copiar el archivo dhcpcd.conf en la dirección /etc
+1. Para salir del modo ad-hoc
 ```
 sudo systemctl start dhcpcd 
 ```
