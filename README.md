@@ -55,7 +55,17 @@ sudo apt-get install git -y
 ```
 git clone https://github.com/josandotavalo/MANET-bike.git
 ```
-
+5. FFMPEG
+```
+sudo apt-get install ffmpeg
+```
+6. PTP
+```
+git clone http://git.code.sf.net/p/linuxptp/code linuxptp
+cd linuxptp/
+make
+make install
+```
 
 ## Configuración del nodo OLSR
 1. Instalación del protocolo
