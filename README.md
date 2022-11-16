@@ -66,6 +66,10 @@ cd linuxptp/
 make
 make install
 ```
+7. NTP
+```
+sudo apt-get install ntp
+```
 
 ## Configuración del nodo OLSR
 1. Instalación del protocolo
