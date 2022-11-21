@@ -75,6 +75,12 @@ sudo apt-get install ntp
 1. Instalación del protocolo
 ```
 sudo apt-get install olsrd -y
+sudo apt-get install --reinstall bison libbison-dev flex libfl-dev
+cd ~/olsrd-0.6.8
+make clean
+make
+sudo make install
+
 ```
 
 2. Uso del repositorio
