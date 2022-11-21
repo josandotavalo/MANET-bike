@@ -57,7 +57,7 @@ git clone https://github.com/josandotavalo/MANET-bike.git
 ```
 5. FFMPEG
 ```
-sudo apt-get install ffmpeg
+sudo apt-get install ffmpeg -y
 ```
 6. PTP
 ```
