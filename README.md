@@ -1,5 +1,5 @@
 # MANET-bike
-Script del tema de tesis
+Configuraciones de los nodos de la red
 
 ## Instalación y configuración del OS
 1. Descargar la imagen de [Raspberry Pi OS Lite (Legacy)](https://www.raspberrypi.com/software/operating-systems/) desde la página oficial
@@ -59,14 +59,7 @@ git clone https://github.com/josandotavalo/MANET-bike.git
 ```
 sudo apt-get install ffmpeg -y
 ```
-6. PTP
-```
-git clone http://git.code.sf.net/p/linuxptp/code linuxptp
-cd linuxptp/
-make
-make install
-```
-7. NTP
+6. NTP
 ```
 sudo apt-get install ntp
 ```
