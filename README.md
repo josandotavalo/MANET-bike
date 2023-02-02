@@ -78,6 +78,21 @@ sudo apt-get install iperf3 -y
 sudo apt-get install ntp
 ```
 
+## Configuración Bluetooth
+1. Modificar el archivo
+```
+/etc/systemd/system/dbus-org.bluez.service
+```
+con la siguiente línea
+```
+ExecStart=/usr/lib/bluetooth/bluetoothd -C
+```
+2. Añadir el Serial Port Profile con el comando:
+```
+sudo sdptool add SP
+sudo systemctl restart bluetooth
+```
+
 ## Configuración del nodo OLSR
 1. Instalación del protocolo
 ```
