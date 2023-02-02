@@ -51,15 +51,29 @@ sudo apt-get install tcpdump -y
 ```
 sudo apt-get install git -y
 ```
+
 4. Clonación del repositorio propio
 ```
 git clone https://github.com/josandotavalo/MANET-bike.git
 ```
-5. FFMPEG
+
+5. PIP - PYBLUEZ
+```
+sudo apt-get install python3-pip -y
+sudo pip3 install pybluez
+```
+
+6. FFMPEG
 ```
 sudo apt-get install ffmpeg -y
 ```
-6. NTP
+
+7. IPERF3
+```
+sudo apt-get install iperf3 -y
+```
+
+8. NTP
 ```
 sudo apt-get install ntp
 ```
