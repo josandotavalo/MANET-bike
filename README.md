@@ -73,7 +73,6 @@ cd ~/olsrd-0.6.8
 make clean
 make
 sudo make install
-
 ```
 
 2. Uso del repositorio
@@ -106,7 +105,11 @@ echo 'denyinterfaces wlan0' | sudo tee --append /etc/dhcpcd.conf
 ```
 sudo chmod +x MANET-bike/batman_scripts/batman_server.sh 
 ```
-5. Ejecutar el script al bootear la RPi, para esto se debe añadir la ruta /home/pi/MANET-bike/batman_scripts/batman_server.sh & a la ruta /etc/rc.local
+
+5. Ejecutar el script al bootear la RPi, para esto se debe añadir la ruta 
+```/home/pi/MANET-bike/batman_scripts/batman_server.sh & ```
+a la ruta /etc/rc.local
+
 ## Configuración del nodo Servidor
 1. Copiar el archivo dhcpcd.conf en la dirección /etc
 ```
